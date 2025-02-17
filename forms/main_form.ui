@@ -100,7 +100,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit"/>
+         <widget class="QLineEdit" name="field_coord"/>
         </item>
         <item>
          <spacer name="verticalSpacer_7">
@@ -145,17 +145,11 @@
        </layout>
       </item>
       <item>
-       <spacer name="horizontalSpacer">
-        <property name="orientation">
-         <enum>Qt::Horizontal</enum>
+       <widget class="QLabel" name="map_image">
+        <property name="text">
+         <string>TextLabel</string>
         </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>40</width>
-          <height>20</height>
-         </size>
-        </property>
-       </spacer>
+       </widget>
       </item>
       <item>
        <layout class="QVBoxLayout" name="verticalLayout_4">
@@ -173,7 +167,7 @@
          </spacer>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_2">
+         <widget class="QPushButton" name="button_plus">
           <property name="minimumSize">
            <size>
             <width>20</width>
@@ -192,7 +186,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton">
+         <widget class="QPushButton" name="button_minus">
           <property name="minimumSize">
            <size>
             <width>20</width>
